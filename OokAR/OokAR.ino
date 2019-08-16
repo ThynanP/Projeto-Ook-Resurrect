@@ -12,7 +12,7 @@
 
 const char* ssid = "SSID";
 const char* password = "Password";
-String Ipv4 = "http://Seu_Ipv4/";
+String Ipv4 = "http://Seu_Ipv4/"; // SUBSTITUIR PELO IPV4 DA MAQUINA
 //_________________________________________________________________________________
 
 int MDF = 5;
