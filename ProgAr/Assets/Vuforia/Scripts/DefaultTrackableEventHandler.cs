@@ -24,7 +24,7 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-	string ipv4 = "http://192.168.0.116";
+	string ipv4 = "http://ipv4"; // MUDAR PARA O IPV4 DA MAQUINA
 	string setURL;
 
     #region PROTECTED_MEMBER_VARIABLES
