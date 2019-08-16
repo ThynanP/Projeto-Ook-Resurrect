@@ -8,13 +8,11 @@
 #define Wdata "/Wdata.php?dados="
 #define Rdata "/Rdata.php"
 
-/*const char* ssid = "VIVO-CEBF";
-const char* password = "FB5E9ACEBF";*/
 //_________________________________________________________________________________
 
-const char* ssid = "Lab_Icarus";
-const char* password = "pizzadomestre10";
-String Ipv4 = "http://192.168.0.116/";
+const char* ssid = "SSID";
+const char* password = "Password";
+String Ipv4 = "http://Seu_Ipv4/";
 //_________________________________________________________________________________
 
 int MDF = 5;
