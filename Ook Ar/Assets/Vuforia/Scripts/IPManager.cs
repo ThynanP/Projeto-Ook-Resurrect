@@ -24,7 +24,7 @@ public class IPManager:MonoBehaviour
 			NetworkInterfaceType _type2 = NetworkInterfaceType.Ethernet;
 
 			if ((item.NetworkInterfaceType == _type1 || item.NetworkInterfaceType == _type2) && item.OperationalStatus == OperationalStatus.Up)
-			#endif 
+			#endif
 			{
 				foreach (UnicastIPAddressInformation ip in item.GetIPProperties().UnicastAddresses)
 				{
